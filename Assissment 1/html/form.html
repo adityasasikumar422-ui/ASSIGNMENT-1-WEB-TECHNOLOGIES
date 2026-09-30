@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+
+<h1>Student Information Form</h1>
+
+<form action="../php/process.php" method="POST">
+
+    <label>Full Name:</label>
+    <input type="text" name="name">
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email">
+    <br><br>
+
+    <label>Phone:</label>
+    <input type="tel" name="phone">
+    <br><br>
+
+    <label>Department:</label>
+    <select name="department">
+        <option>EEE</option>
+        <option>CSE</option>
+        <option>ECE</option>
+        <option>ME</option>
+    </select>
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>

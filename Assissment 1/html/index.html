@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+<body>
+
+<h1>Student Registration</h1>
+
+<h2>Subjects</h2>
+<ul>
+    <li>Web Technologies</li>
+    <li>Python</li>
+    <li>Database Management</li>
+</ul>
+
+<h2>Student Details</h2>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td>Aditya</td>
+        <td>EEE</td>
+        <td>Final Year</td>
+    </tr>
+</table>
+
+<h2>Registration Form</h2>
+
+<form action="process.php" method="POST">
+    <label>Name:</label>
+    <input type="text" name="name"><br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email"><br><br>
+
+    <label>Password:</label>
+    <input type="password" name="password"><br><br>
+
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
